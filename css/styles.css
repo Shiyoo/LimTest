@@ -1,0 +1,133 @@
+/* ---------- Global Section ----------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	background: #F7FFF7;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+img {
+	width: 300px;
+}
+a{
+	color: #FFE66D;
+}
+a:hover{
+	text-decoration: none;
+}
+h1{
+	font-size: 100px;
+	line-height: 1;
+}
+h2{
+	font-size: 44px;	
+}
+h1,h2{
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	margin: 0;
+}
+.content-wrap{
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+h3{
+	margin-bottom: 0;
+}
+.item-details h3 + p {
+	font-style: italic;
+}
+.item-details h3 ~ p {
+	margin: 0;
+}
+.divider > section {
+	border-bottom: 1px dashed #e0c782;
+	padding: 25px 0;
+}
+.divider > section:last-of-type{
+	border-bottom: none;
+}
+
+/*---------- Profile ----------*/
+
+header{
+	background: #e0c782;
+	color: white;
+	text-align: center;
+}
+
+/*---------- Favorite Anime ----------*/
+
+.projects {
+	background: #343434;
+	color: white;
+}
+.projects a{
+	color: #e0c782;
+}
+.projects .btn{
+	color: white;
+	background: #A1C6D7;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.projects .btn:hover{
+	background: rgba(161, 198, 215, 80%);
+}
+.project-item {
+	overflow: hidden;	
+}
+.project-item img{
+	float: left;
+	margin-right: 20px;
+}
+.project-item h3{
+	margin-top: 0;
+}
+
+
+/*---------- Work Experience ----------*/
+.work-experience{
+	background: #e0c782;
+}
+.job-item{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	column-gap: 20px;
+}
+
+/*---------- Education ----------*/
+.education{
+	background-image: url(../images/Miku.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100px;
+}
+.education p{
+	width: 60%;
+}
+/*----------Contact Info ----------*/
+
+footer{
+	background: #343434;
+	color: white;
+	text-align: center;
+}
+.contact-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
